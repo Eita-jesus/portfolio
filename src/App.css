@@ -1,5 +1,9 @@
+
 .App {
   text-align: center;
+  max-width: 595px;
+  background-color: #f6f6f6 ;
+
 }
 
 .App-logo {
@@ -36,3 +40,180 @@
     transform: rotate(360deg);
   }
 }
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+nav{
+  font-size: 25px;
+  font-weight:700;
+  background: -webkit-linear-gradient(#7ADCA2, #3CA6BB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  padding: 10px;
+  margin: 0 0 0 10px;
+}
+
+.unorderedList1{
+
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: 14px;
+}
+.List1{
+  /* font-family: 'DM Sans'; */
+  color: #666666;
+  padding: 0 6px 0 6px;
+  margin: 0 6px 0 2px;
+}
+
+
+
+.apresentation{
+  max-width: 590px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #42446E;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: justify;
+  padding: 50px;
+  /* margin: 0 0 0 0 ;  Sanar com o professor o melhor pedding ou margin*/
+}
+
+
+.PersonalPhoto{
+    max-width: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-radius: 1px solid transparent;
+    padding: 5px;
+    background: -webkit-linear-gradient(#7ADCA2, #3CA6BB);
+    -webkit-background-clip:border-box ;
+    -webkit-text-fill-color: transparent;	width: 150px;
+}
+
+.tech{
+  color: #42446E;
+  font-family: 'Poppind';
+  font-weight: 700;
+  size: 22px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.techWork{
+  color: #666666;
+  font-family: 'Poppind';
+  font-weight: 700;
+  size: 22px;
+  text-align: center;
+  line-height: 13px;
+}
+
+
+
+.FormImg >img {
+ 
+  max-width: 35px;
+  max-height: 30px;
+  border: 30px ;
+  padding:30px;
+}
+
+.FormImg{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 590px;
+}
+
+
+
+.unorderedList2{
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 13px;
+  margin: 10px 0 10px 0px;
+  padding: 10px 0 10px 0px;
+
+}
+
+.List2{
+  display: flex;
+  color: #666666;
+  padding: 0 7px 0 7px;
+  margin: 0 7px 0 7px;
+  max-width: 590pc;
+}
+
+.projectX{
+
+  display: flex;
+  max-width: 590px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+}
+
+.imgProjects{
+  max-width: 151px;
+}
+
+.GroupOne{
+  display: flex;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10x;
+  margin: 10px;
+  border-radius: 11px;
+
+
+}
+
+.TitleDescription{
+  
+  max-width: 150px;
+  font-weight: 700;
+}
+
+.description{
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 13px;
+  max-width: 130px;
+  margin: 5px 10px 10px 10px;
+
+}
+
+hr{
+  margin: 30px 30px 0 30px ;
+  width: 90%;
+}
+
+.LoveCoffe{
+  display: flex;
+
+  font-size: 10px;
+  padding: 10px;
+
+}
+
+/* 
+128077	1F44D */
